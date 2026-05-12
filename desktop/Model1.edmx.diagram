@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f786fde9be146c5b1055c2e97ea8a0f" Name="Diagram1">
+        <EntityTypeShape EntityType="laboratoriaModel.audit_log" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.batch_raw_usage" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.deviations" Width="1.5" PointX="13.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.lab_tests" Width="1.5" PointX="6" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.production_batches" Width="1.5" PointX="8.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.production_orders" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.products" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.raw_materials" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.recipe_components" Width="1.5" PointX="8.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.recipes" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.roles" Width="1.5" PointX="1.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.step_actual_params" Width="1.5" PointX="12.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.step_executions" Width="1.5" PointX="10.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.step_parameters" Width="1.5" PointX="7.5" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.tech_maps" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.tech_steps" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.test_results" Width="1.5" PointX="8.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="laboratoriaModel.users" Width="1.5" PointX="3.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="laboratoriaModel.FK__audit_log__user___59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__batch_raw__batch__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__deviation__batch__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__deviation__step___5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__lab_tests__user___4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__test_resu__test___5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__productio__order__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__productio__tech___3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__step_exec__batch__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__productio__produ__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__productio__recip__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__recipes__product__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__tech_maps__produ__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__recipe_co__raw_m__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__recipe_co__recip__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__recipes__author___1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__users__role_id__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__step_actu__execu__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__step_actu__param__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__step_exec__step___440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__step_para__step___30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="laboratoriaModel.FK__tech_step__tech___2E1BDC42" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
